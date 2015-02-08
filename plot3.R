@@ -2,6 +2,10 @@
 # Input : Electric power consumption from  UC Irvine Machine Learning Repository
 # Output: Draw a PNG format image for 2007/2/1 - 2007/2/2 data only
 
+# Set the working directory
+# Make sure both this Plot1.R file and Household data files in the same folder
+setwd("Data-Science/Working/Exploratory-Data")
+
 #Download the 'Electric power consumption' data set 
 desturl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 file <- file.path(getwd(), "household_power_consumption.zip")
